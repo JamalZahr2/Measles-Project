@@ -1,4 +1,5 @@
 //Global Variables
+
 //
 void setup() {
   size(854, 480);
@@ -10,7 +11,7 @@ void setup() {
 } //End setup
 //
 void draw() {
-  
+  shapeDraw();
   //OS System Start Button
   //Splash Screen Level Start Button | Measles Reset Button
   //Theme: Measles with different sizes and colors

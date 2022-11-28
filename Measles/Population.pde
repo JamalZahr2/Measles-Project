@@ -1,3 +1,3 @@
 void population() {
-  
+  RectWidth1 = ;
 }
