@@ -1,9 +1,14 @@
 //Global Variables
-
+int FaceButtonX, FaceButtonY, FaceButtonWidthDiameter, FaceButtonHeightDiameter;
+int appWidth, appHeight;
+int FaceButtonSize = width * 4;
+Boolean rollOver = false;
+color FaceButtonColour;
 //
 void setup() {
   size(854, 480);
   population();
+  displayOrientation();
   //Display & Orientation
   //Population
   //Theme: i.e. Face
@@ -26,8 +31,17 @@ void mousePressed() {
   keyBinds();
   //OS System Start Button
   //Splash Screen Start Button
-  //Quit Button
   //Night Mode (Includes Day Mode)
 } //End setup
+//
+Boolean rollOver(int x, int y, int diameter) {
+  float disX = x - mouseX;
+  float disY = y - mouseY;
+  if (sqrt(sq(disX) + sq(disY)) < diameter/2 ) {
+    return true;
+  } else { 
+    return false;
+  }
+}
 //
 //End Main Program
