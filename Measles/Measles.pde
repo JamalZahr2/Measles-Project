@@ -1,7 +1,10 @@
 //Global Variables
 int FaceButtonX, FaceButtonY, FaceButtonWidthDiameter, FaceButtonHeightDiameter;
 int appWidth, appHeight;
-int FaceButtonSize = width * 4;
+int FaceButtonSize = width * 4;;
+float OuteyeX, OuteyeY, OuteyeSize, OuteyeX2, OuteyeY2, OuteyeSize2;
+float IneyeX, IneyeY, IneyeSize, IneyeX2, IneyeY2, IneyeSize2, IneyeSize3;
+float TriX, TriX2, TriX3, TriY, TriY2, TriY3;
 Boolean rollOver = false;
 color FaceButtonColour;
 //
