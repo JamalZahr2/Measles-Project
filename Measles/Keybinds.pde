@@ -6,7 +6,7 @@ void keyBinds() {
     exit();
   }
   if (rollOver == true && mousePressed ) {
-    exit();
+    measleStart = true;
   }
   if (mouseX < 0) {
     rollOver = false; 

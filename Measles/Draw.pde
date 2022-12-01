@@ -4,8 +4,9 @@ void shapeDraw() {
   keyBinds();
   quitButtonRollover(1, 1);
   quitButtonDraw();
+  measlesDynamic();
   eyes();
   nose();
   mouth();
-  measlesDynamic();
+  buttons();
 }
