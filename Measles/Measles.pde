@@ -13,11 +13,13 @@ Boolean measleStart = false;
 int reset;
 Boolean nightMode = false;
 float rectX, rectY, rectWidth, rectHeight;
+float ComicSansMS;
 //
 void setup() {
   size(854, 480);
   population();
   displayOrientation();
+  createFont("..//comic.ttf", ComicSansMS);
   //Display & Orientation
   //Population
   //Theme: i.e. Face

@@ -17,16 +17,16 @@ void population() {
   TriY = height / 2.25;
   TriY2 = height / 1.5;
   TriY3 = height / 1.5;
-  measleX = random(0, appWidth); //Face X
-  measleY = random(0, appHeight); //Face Y
-  measleDiameter = random(0, appWidth); //Face Diameter
+  measleX = random(FaceButtonX, FaceButtonY); //Face X
+  measleY = random(FaceButtonX, FaceButtonY); //Face Y
+  measleDiameter = random(0, 10); //Face Diameter
   measleColour = color( measleR, measleG, measleB );
   measleR = random(160, 255);
   measleG = random(70, 100);
   measleB = random(0, 50);
   resetWhite = #FFFFFF;
-  rectX = appWidth * 2/10;
-  rectY = appHeight * 3/4;
+  rectX = appWidth * 1/14;
+  rectY = appHeight * 11/14;
   rectWidth = 120;
   rectHeight = 60;
 }
