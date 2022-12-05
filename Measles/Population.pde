@@ -1,5 +1,6 @@
 void population() {
   //RectWidth1 = ;
+  ComicSans = createFont("Comic Sans MS", 24);
   appWidth = width;
   appHeight = height;
   FaceButtonX = width * 3/4;

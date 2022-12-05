@@ -1,4 +1,4 @@
 Boolean landscape = false, portrait = false;
-void displayOrientation() {
+  void displayOrientation() {
   landscape = true;
 }
