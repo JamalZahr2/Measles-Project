@@ -12,7 +12,7 @@ float measleR, measleG, measleB;
 Boolean measleStart = false;
 int reset;
 Boolean nightMode = false;
-float rectX, rectY, rectWidth, rectHeight;
+float rectX, rectY, rectWidth, rectHeight, FaceRectX, FaceRectY, FaceRectWidth, FaceRectHeight;
 String Quit = "Exit Program";
 PFont ComicSans;
 //

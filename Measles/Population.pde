@@ -30,4 +30,8 @@ void population() {
   rectY = appHeight * 11/14;
   rectWidth = 120;
   rectHeight = 60;
+  FaceRectX = appWidth * 2/3;
+  FaceRectY = appHeight * 3/4;
+  FaceRectWidth = 140;
+  FaceRectHeight = 50;
 }

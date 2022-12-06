@@ -6,7 +6,7 @@ void eyes() {
   ellipse(OuteyeX, OuteyeY, OuteyeSize, OuteyeSize);
   ellipse(OuteyeX2, OuteyeY2, OuteyeSize2, OuteyeSize2);
   //Inner Eye
-  fill(#991700);
+  fill( #EC98F7/*#991700*/);
   noStroke();
   ellipse(IneyeX, IneyeY, IneyeSize, IneyeSize);
   ellipse(IneyeX2, IneyeY2, IneyeSize2, IneyeSize2);

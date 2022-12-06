@@ -8,21 +8,24 @@ void buttons() {
     if ( mousePressed ) {
       exit();
     }
+  } else {
+    rollOverQuit = false;
   }
   rect(rectX, rectY, rectWidth, rectHeight);
   /*fill(#000000);
    textFont(ComicSans, 16);
    text("Quit Program", rectX + 12, rectY + 18, rectWidth, rectHeight); */
-  if (rollOverQuit = true) {
-    fill(#000000);
-    textFont(ComicSans, 12);
-    text("Are you Sure?", rectX + 12, rectY + 18, rectWidth, rectHeight);
-  }
-  if (rollOverQuit = false) {
+  if (rollOverQuit == false) {
     fill(#000000);
     textFont(ComicSans, 16);
     text("Quit Program", rectX + 12, rectY + 18, rectWidth, rectHeight);
-  }  
+  }
+  if (rollOverQuit == true) {
+    fill(#000000);
+    textFont(ComicSans, 15);
+    text("Are you Sure?", rectX + 12, rectY + 18, rectWidth, rectHeight);
+  }
+
   //Code functionality into the quit, start, and reset buttons
   //Side note: If possible, code custom background
   //Side note 2: Add the text "Are you sure" to the quit button for extra credit ;D
